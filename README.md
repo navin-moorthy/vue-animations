@@ -18,7 +18,7 @@
 
 <p align="center">
   <strong>
-  Checkout my site at <a href="https://navin-navi.github.io/to-do-list-basic/">Basic To do List</a>
+  Checkout my site at <a href="https://navin-navi.github.io/vue-animations/">Vue Animations Starter</a>
   </strong>
 </p>
 
@@ -33,6 +33,8 @@
 ## 🖥 Tech Stack
 
 - Static files served from GH Pages
+- Travis CI for Auto Deployment
+- Renovate for Auto Dependency Updates
 
 ## 🚀 Features
 
