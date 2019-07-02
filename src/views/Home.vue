@@ -2,27 +2,27 @@
   <div class="home">
     <section>
       <button @click="bounce = !bounce">Bounce</button>
-      <br>
+      <br />
       <transition name="bounce">
-        <img v-if="bounce" alt="Vue logo" src="../assets/logo.png">
+        <img v-if="bounce" alt="Vue logo" src="../assets/logo.png" />
       </transition>
     </section>
     <section>
       <button @click="roll = !roll">Roll</button>
-      <br>
+      <br />
       <transition name="roll">
-        <img v-if="roll" alt="Vue logo" src="../assets/logo.png">
+        <img v-if="roll" alt="Vue logo" src="../assets/logo.png" />
       </transition>
     </section>
     <section>
       <button @click="animated = !animated">Animated</button>
-      <br>
+      <br />
       <transition
         name="animated"
         enter-active-class="animated flipInY"
         leave-active-class="animated zoomOutRight"
       >
-        <img v-if="animated" alt="Vue logo" src="../assets/logo.png">
+        <img v-if="animated" alt="Vue logo" src="../assets/logo.png" />
       </transition>
     </section>
   </div>
