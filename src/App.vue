@@ -10,7 +10,7 @@
       enter-active-class="animated zoomInRight delay"
       leave-active-class="animated zoomOutLeft"
     >
-      <router-view />
+      <router-view/>
     </transition>
   </div>
 </template>
